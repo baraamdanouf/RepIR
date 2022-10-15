@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-   //   home: Splash(),
+    //  home: Splash(),
     );
   }
 }
