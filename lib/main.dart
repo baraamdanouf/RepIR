@@ -6,7 +6,7 @@ import 'package:test7/view/splash/splash.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
- // WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
