@@ -5,7 +5,7 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+ // WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
