@@ -38,8 +38,3 @@ flutter:
   assets:
     - assets/images/
 
-  fonts:
-    - family: Lemonada
-      fonts:
-        - asset: assets/fonts/Lemomda-Bold.ttf
-
