@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:test7/l10n/l10n.dart';
+import 'package:test7/utils/const_colors.dart';
 import 'package:test7/view/splash/splash.dart';
 
 void main() async {
@@ -17,9 +19,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
         const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
-    return const GetMaterialApp(
+    return  GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Splash(),
+      home: const Splash(),
+      theme: ThemeData(
+        fontFamily: lemonda
+      ),
+     supportedLocales: L10n.all,
     );
   }
 }

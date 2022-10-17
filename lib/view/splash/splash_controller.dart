@@ -13,10 +13,10 @@ class SplashController extends GetxController
     super.onInit();
     animationController = AnimationController(
         duration: const Duration(seconds: 3), vsync: this);
-    animation1 = Tween<Offset>(begin: const Offset(0.0, 1.0), end: Offset.zero)
+    animation1 = Tween<Offset>(begin: const Offset(-0.0, 10.0), end: Offset.zero)
         .animate(animationController);
     animation2 = Tween<Offset>(
-      begin: const Offset(0.0, -1.0),
+      begin: const Offset(-0.0, -1.0),
       end: Offset.zero,
     ).animate(animationController);
   }
