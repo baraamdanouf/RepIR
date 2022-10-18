@@ -1,7 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.test7">
    <application
         android:label="test7"
+=======
+    package="com.example.repair_project">
+   <application
+        android:label="repair_project"
+>>>>>>> 126580c (first commit)
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
